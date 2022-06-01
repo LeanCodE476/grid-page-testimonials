@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: #cfcfcf;
+}
+
+main {
+  margin: 10rem auto;
+  width: 80%;
+  min-width: 100rem;
+  height: auto;
+  min-height: 60rem;
+  display: grid;
+  grid-template-areas: "dani dani jhona kira" "jeanette patrick patrick kira";
+  gap: 3rem;
+}
+main .box {
+  border-radius: 1rem;
+  box-shadow: -1px 0px 11px 3px rgba(0, 0, 0, 0.39);
+  -webkit-box-shadow: -1px 0px 11px 3px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: -1px 0px 11px 3px rgba(0, 0, 0, 0.39);
+}
+main .container-content {
+  padding: 4rem;
+}
+main .container-content .container-testimonial {
+  display: flex;
+}
+main .container-content .container-testimonial .container-img img {
+  width: 4rem;
+  border-radius: 50%;
+}
+main .container-content .container-testimonial p {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+main .container-content .container-testimonial p span {
+  font-weight: 200;
+  opacity: 50%;
+}
+main .container-content h1 {
+  margin-top: 2rem;
+  color: white;
+  font-weight: 500;
+}
+main .container-content h2 {
+  color: white;
+  margin-top: 2rem;
+  font-weight: 200;
+}
+main .container-daniel {
+  grid-area: dani;
+  background-color: #7541c8;
+}
+main .container-daniel .container-content {
+  padding: 3rem;
+}
+main .container-daniel .container-content .container-testimonial {
+  display: flex;
+}
+main .container-daniel .container-content .container-testimonial .container-img {
+  border-radius: 50%;
+}
+main .container-daniel .container-content .container-testimonial .container-img img {
+  border: 0.28rem solid #cfcfcf;
+}
+main .container-daniel .container-content .container-testimonial p {
+  color: white;
+}
+main .container-daniel .container-content h1 {
+  color: white;
+}
+main .container-daniel .container-content h2 {
+  color: white;
+  opacity: 70%;
+}
+main .container-jonathan {
+  background-color: #48556a;
+  grid-area: jhona;
+}
+main .container-jonathan .container-content {
+  padding: 3rem;
+}
+main .container-jonathan .container-content .container-testimonial {
+  display: flex;
+}
+main .container-jonathan .container-content .container-testimonial .container-img img {
+  border-radius: 50%;
+}
+main .container-jonathan .container-content .container-testimonial p {
+  color: white;
+}
+main .container-jonathan .container-content h2 {
+  opacity: 70%;
+}
+main .container-kira {
+  background-color: white;
+  grid-area: kira;
+  width: 30rem;
+}
+main .container-kira .container-content {
+  padding: 3rem;
+}
+main .container-kira .container-content .container-testimonial {
+  display: flex;
+}
+main .container-kira .container-content .container-testimonial .container-img img {
+  border-radius: 50%;
+}
+main .container-kira .container-content h1 {
+  color: #19212e;
+}
+main .container-kira .container-content h2 {
+  color: #19212e;
+}
+main .container-jeanette {
+  background-color: white;
+  grid-area: jeanette;
+}
+main .container-jeanette .container-content {
+  padding: 3rem;
+}
+main .container-jeanette .container-content .container-testimonial {
+  display: flex;
+}
+main .container-jeanette .container-content .container-testimonial .container-img img {
+  border-radius: 50%;
+}
+main .container-jeanette .container-content h1 {
+  color: #19212e;
+}
+main .container-jeanette .container-content h2 {
+  color: #19212e;
+}
+main .container-patrick {
+  background-color: #19212e;
+  grid-area: patrick;
+}
+main .container-patrick .container-content {
+  padding: 3rem;
+}
+main .container-patrick .container-content .container-testimonial {
+  display: flex;
+}
+main .container-patrick .container-content .container-testimonial .container-img img {
+  border-radius: 50%;
+  border: 0.3rem solid #7541c8;
+}
+main .container-patrick .container-content .container-testimonial p {
+  color: white;
+}
+
+@media screen and (max-width: 70rem) {
+  main {
+    margin: 5rem auto;
+    width: 90%;
+    min-width: 20rem;
+    height: auto;
+    min-height: auto;
+    grid-template-areas: "dani" "jhona" "jeanette" "patrick" "kira";
+    row-gap: 2rem;
+  }
+  main .box {
+    width: 100%;
+  }
+  main .container-kira {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
